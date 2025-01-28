@@ -1,0 +1,54 @@
+/* Full-height styling for the calendar container */
+.calendar-page-fullheight {
+  /* height: 100vh;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f5f5f5; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.react-calendar__month-view__days {
+  height: 70vh;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+  border: 1px solid rgb(228, 225, 225);
+  padding: 67px;
+}
+/* React Calendar Custom Styling */
+.react-calendar {
+  width: 100%;
+  max-width: 1130px; /* Maximum width of the calendar */
+  height: 80vh; /* Set a fixed height for the calendar (80% of viewport height) */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Customizing calendar navigation buttons */
+.react-calendar__navigation button {
+  font-size: 18px;
+  padding: 8px;
+}
+
+/* Tile and hover effects */
+.react-calendar__tile {
+  text-align: center;
+  padding: 15px;
+  height: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.react-calendar__tile--active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.react-calendar__tile--hover {
+  background-color: #e0e0e0;
+}
